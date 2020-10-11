@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    min-height: 100vh;
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.key {
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.07s;
+    margin: 10px;
+}
+
+.playing {
+    border: 1px solid rgba(177, 107, 107, 0.5);
+    transform: scale(1.1);
+}
